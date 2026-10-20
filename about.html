@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - BCP Lost & Found</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav-wrap">
+      <div class="brand" onclick="navigate('home')">
+        <span class="badge-logo">BCP</span>
+        <div class="brand-text">
+          <strong>Lost & Found</strong>
+          <small>Bestlink College of the Philippines</small>
+        </div>
+      </div>
+      <div class="nav-actions">
+        <button class="btn btn-outline" onclick="navigate('about')">ℹ️ About Us</button>
+        <button class="btn btn-outline" onclick="navigate('receipts')">🧾 Receipts</button>
+        <button class="btn btn-outline" onclick="navigate('admin')">🛡️ Admin</button>
+        <button class="btn btn-gold" onclick="navigate('report')">+ Report Item</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="view-about" class="page-view">
+      <div class="form-card about">
+        <button class="btn-back" onclick="navigate('home')">← Back to Board</button>
+        <span class="hero-tag">About Us</span>
+        <h2>BCP Lost & Found Portal</h2>
+
+        <h3>👥 Our Team</h3>
+        <ul>
+          <li><img src="image/IMG_20260913_125458_701.jpg" alt="Princess Correo" style="height: 50px; width: 50px; border-radius: 50%; vertical-align: middle; margin-right: 10px;"> <b>CORREO, PRINCESS R.</b></li>
+          <li><img src="image/Messenger_creation_DFBE62C4-A035-479A-8593-7A82E2EAD133_1.jpeg" alt="Vince Cedrick Dela Cruz" style="height: 50px; width: 50px; border-radius: 50%; vertical-align: middle; margin-right: 10px;"> <b>DELA CRUZ, VINCE CEDRICK C.</b></li>
+          <li><img src="image/formal.png" alt="Aljun Espiloy" style="height: 50px; border-radius: 50%; vertical-align: middle; margin-right: 10px;"> <b>ESPILOY, ALJUN B.</b></li>
+          <li><img src="image/FB_IMG_1783926900118.jpg" alt="John Lloyd Gatdula" style="height: 47px;border-radius: 50%; vertical-align: middle; margin-right: 10px;"> <b>GATDULA, JOHN LLOYD O.</b></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
